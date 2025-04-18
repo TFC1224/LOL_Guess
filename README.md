@@ -35,13 +35,13 @@
 
 ```lua
 {
-  name = "Meiko",
-  position = "SUP",
-  status = "现役",
-  tags = {"稳定型", "团战核心"},
-  teams = {"EDG"},
-  achievements = {"S11冠军", "LPL五杀"}
-}
+    name = "Flandre",
+    position = "上单",
+    status = "现役",
+    teams = {"AL","EDG","LNG"},
+    tags = {"全能型","男枪","卢锡安"},
+    achievements = {"夏冠","S冠"}
+},
 ```
 你可以自由扩展 players.lua 中的数据，支持所有你喜欢的 LPL（或LCK）选手！
 
