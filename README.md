@@ -42,27 +42,31 @@
   teams = {"EDG"},
   achievements = {"S11冠军", "LPL五杀"}
 }
-
+```
 你可以自由扩展 players.lua 中的数据，支持所有你喜欢的 LPL（或LCK）选手！
 
 🚀 启动方式
 安装 LOVE2D
 
 克隆本项目：
+```bash
     git clone https://github.com/yourname/lpl-guess-game.git
     cd lpl-guess-game
+```
 启动游戏：
+```
     love .
+```
 
 🖥️ 依赖字体
 游戏会自动寻找以下路径的字体以支持中文显示：
-
+```
 fonts/msyh.ttc
 
 C:/Windows/Fonts/msyh.ttc
 
 wqy-microhei.ttc
-
+```
 如果没有找到，将使用默认字体。
 
 📌 TODO（未来计划）
